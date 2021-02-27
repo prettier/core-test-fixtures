@@ -1,5 +1,5 @@
 {
-  "name": "core-test-fixtures",
+  "name": "@prettier/core-test-fixtures",
   "private": true,
   "version": "1.0.0",
   "description": "Test fixtures for Prettier core.",
