@@ -1,0 +1,26 @@
+{
+  "name": "core-test-fixtures",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Test fixtures for Prettier core.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "files"
+  ],
+  "type": "module",
+  "repository": "prettier/core-test-fixtures",
+  "author": "fisker <lionkay@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "format": "prettier . -w"
+  },
+  "devDependencies": {
+    "cpy": "8.1.1",
+    "del": "6.0.0",
+    "execa": "5.0.0",
+    "prettier": "2.2.1",
+    "tempy": "1.0.0"
+  }
+}
